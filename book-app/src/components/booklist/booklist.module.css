@@ -1,0 +1,72 @@
+.list {
+	list-style-type: none;
+	padding: 0;
+}
+  
+.bookTitle {
+	font-size: 18px; 
+	font-weight: 600; 
+	margin: 0 auto;
+	width: 750px;
+	padding: 15px 15px;
+	position: relative;
+}
+  
+.bookTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 181px;
+	height: .5px;
+	width: 77%; 
+	background-color: #eae9e9; 
+}
+  
+.bookTitle::before {
+	content: "";
+	position: absolute;
+	top: 26px;
+	right: 163px;
+	width: .5px;
+	height: 30%; 
+	background-color: #eae9e9; 
+}  
+  
+.listItem {
+	display: flex;
+	width: 750px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 15px;
+	position: relative;
+}
+
+.listItem::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 181px;
+	height: .5px;
+	width: 77%; 
+	background-color: #eae9e9;
+}
+  
+.deleteButton {
+	width: 150px;
+	height: 35px;
+	background-color: white;
+	color: red;
+	border: 1.2px solid red;
+	border-radius: 2px;
+	cursor: pointer;
+}
+  
+.deleteButton:hover {
+	background-color: lightcoral;
+}
+  
+.deleteButton:active {
+	background-color: red;
+}
+  
