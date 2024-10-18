@@ -1,9 +1,0 @@
-.pokemonContainer {
-	margin-top: 25px;
-}
-
-.pokemonList {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
